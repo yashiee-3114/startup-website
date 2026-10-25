@@ -1,0 +1,35 @@
+.why-us {
+  padding: 80px 48px;
+  background-color: var(--color-bg);
+}
+
+.why-us-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-navy);
+  margin-bottom: 48px;
+}
+
+.why-us-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 32px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.why-us-item {
+  border-left: 3px solid var(--color-navy);
+  padding-left: 18px;
+}
+
+.why-us-item h3 {
+  font-size: 1.05rem;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.why-us-item p {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}

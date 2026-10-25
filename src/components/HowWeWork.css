@@ -1,0 +1,68 @@
+.how-we-work {
+  padding: 80px 48px;
+  background-color: var(--color-bg-alt);
+}
+
+.how-we-work-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-navy);
+  margin-bottom: 56px;
+}
+
+.steps-row {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.step-item {
+  position: relative;
+  flex: 1;
+  min-width: 220px;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--color-navy);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.step-item h3 {
+  font-size: 1.05rem;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.step-item p {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.step-connector {
+  position: absolute;
+  top: 22px;
+  right: -12px;
+  width: 24px;
+  height: 2px;
+  background-color: #cbd5e1;
+}
+
+@media (max-width: 900px) {
+  .step-connector {
+    display: none;
+  }
+}
